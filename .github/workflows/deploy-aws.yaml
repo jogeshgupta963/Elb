@@ -1,9 +1,8 @@
 name: Deploy React to AWS
 on:
     push:
-        branch:
+        branches:
             - master
-jobs: deploy
 
 jobs:
   deploy:
